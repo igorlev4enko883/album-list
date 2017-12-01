@@ -1,0 +1,5 @@
+<nav>
+  <a routerLink="/dashboard">Dashboard View</a>
+  <a routerLink="/album-list">List View</a>
+  <a [routerLink]="[{ outlets: { popup: ['add-album'] } }]">Add New Album</a>
+</nav>

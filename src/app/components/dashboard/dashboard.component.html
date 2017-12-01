@@ -1,0 +1,16 @@
+<h3>Select your favorite Album...</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let album of albums" class="col-1-4"
+     [style.background-image]="getBg(album.cover)"
+      routerLink="/album/{{album.id}}">
+    <div class="module album">
+      <h4>{{album.label}}</h4>
+      <div>
+        {{album.author}}
+      </div>
+      <div>
+        {{album.release_date}}
+      </div>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,7 @@
+<div class="album-wrapper" *ngIf="album">
+<h1>{{album.label}}</h1>
+<h3>{{album.author}}</h3>
+  <div *ngFor="let track of album.tracks">
+    <app-album-item [track]="track"></app-album-item>
+  </div>
+</div>

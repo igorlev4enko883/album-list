@@ -1,0 +1,26 @@
+<div class="album-item">
+  <div class="inner-container">
+    <div class="thumbnail">
+      <img [src]="album.cover" [alt]="album.label+', '+album.author" class="cover-image">
+    </div>
+    <div class="content">
+      <header>
+      <h2>{{album.label}}</h2>
+      <h5>{{album.author}}</h5>
+      </header>
+      <div class="album-details">
+        <div>Release: {{album.release_date}}</div>
+        <span>Total tracks: {{album.num_tracks}}</span>
+        <span>Duration: {{album.total_duration}}</span>
+        <div class="description">{{album.description}}</div>
+      </div>
+      <div class="album-contents">
+        <h4>Tracklist:</h4>
+        <ul class="track-list"  *ngFor="let track of album.tracks">
+          <li class="track-label"><span class="track-number">{{track.id}}</span>{{track.label}}</li>
+        </ul>
+      </div>
+      <a routerLink="/album/{{album.id}}" class="btn-view btn">View Album Details</a>
+    </div>
+  </div>
+</div>

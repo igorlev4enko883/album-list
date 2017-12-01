@@ -1,0 +1,54 @@
+.album-item {
+  padding: 30px;
+  transition: background-color 1s ease-out;
+
+  &:hover {
+    background-color: rgba(255, 178, 178, 0.2);
+  }
+
+  .inner-container {
+    display: flex;
+  }
+
+  .thumbnail {
+    width: 500px;
+  }
+
+  .cover-image {
+    width: 100%;
+  }
+
+  .content {
+    padding-left: 50px;
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    .album-details {
+      margin-bottom: 20px;
+
+      div {
+        margin: 10px 0;
+      }
+    }
+
+    .album-contents {
+      h4 {
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+
+      .track-list {
+
+        .track-number {
+          margin-right: 0.5em;
+
+          &::after {
+            content: '.';
+          }
+        }
+      }
+    }
+  }
+}

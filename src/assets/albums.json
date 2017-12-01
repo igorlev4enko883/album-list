@@ -1,0 +1,211 @@
+{
+  "albums": [
+    {
+      "id": "5a1eb984d634b924607bc2fc",
+      "label": "Hello, Dolly!",
+      "release_date": "1964",
+      "author": "Louis Armstrong",
+      "cover": "http://netstorage.metrolyrics.com/albums/7669184jpg.jpg",
+      "num_tracks": "5",
+      "tracks": [
+        {
+          "id": "1",
+          "label": "La vie en rose",
+          "author": "Louis Armstrong",
+          "duration": "03:25",
+          "link": "https://www.youtube.com/embed/8IJzYAda1wA"
+        },
+        {
+          "id": "2",
+          "label": "What A Wonderful World",
+          "author": "Louis Armstrong",
+          "duration": "02:24",
+          "link": "https://www.youtube.com/embed/m5TwT69i1lU"
+        },
+        {
+          "id": "3",
+          "label": "Dream a Little Dream",
+          "author": "Louis Armstrong",
+          "duration": "03:19",
+          "link": "https://www.youtube.com/embed/R-xzfwDAn1I"
+        },
+        {
+          "id": "4",
+          "label": "Ramona",
+          "author": "Louis Armstrong",
+          "duration": "02:48",
+          "link": "https://www.youtube.com/embed/iArN5bW_Ntc"
+        },
+        {
+          "id": "5",
+          "label": "Chim Chim Cheree",
+          "author": "Louis Armstrong",
+          "duration": "06:39",
+          "link": "https://www.youtube.com/embed/NQ2axyzn9H0"
+        }
+        ],
+      "total_duration": "20:59",
+      "description": "The single “Hello, Dolly!” knocked the Beatles off the top of the charts and the resulting album is a terrific look at Armstrong’s genius in the mid-1960s."
+    },
+    {
+      "id": "lgot83496kfjdujd95905iwe",
+      "label": "album #2 label",
+      "release_date": "2014",
+      "author": "#2 Author",
+      "cover": "https://upload.wikimedia.org/wikipedia/ru/4/4d/Spirit_%28Depeche_Mode_album_cover%29.jpg",
+      "num_tracks": "4",
+      "tracks": [
+        {
+          "id": "1",
+          "label": "The Four Seasons: Summer",
+          "author": "Mumi",
+          "duration": "03:57",
+          "link": "https://www.youtube.com/embed/0WcGL4CjqiI"
+        },
+        {
+          "id": "2",
+          "label": "Hang (Drum) and Handpan Comparison",
+          "author": "David Kuckhermann",
+          "duration": "30:41",
+          "link": "https://www.youtube.com/embed/Sp5dgy8UDKs"
+        },
+        {
+          "id": "3",
+          "label": "The most beautiful instruments",
+          "author": "Guide Serdar",
+          "duration": "14:50",
+          "link": "https://www.youtube.com/embed/GAJj3OdWH3U"
+        },
+        {
+          "id": "4",
+          "label": "Top 10 AMAZING Street Performers Musicians Piano (2017)",
+          "author": "Viralcoholics",
+          "duration": "23:06",
+          "link": "https://www.youtube.com/embed/WkamfiP4RUU"
+        }
+      ],
+      "total_duration": "46:54",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut cupiditate deserunt dolor ducimus facilis itaque minima minus nam nihil nobis provident quae quibusdam repudiandae sequi, voluptas voluptate voluptates."
+    },
+    {
+      "id": "lgo8349sdfgsdduj95905iwe",
+      "label": "album #2 label",
+      "release_date": "2014",
+      "author": "#3 Author",
+      "cover": "http://www.qpratools.com/gallery/0005/paul_mccartney-mtv_unplugged-front.jpg",
+      "num_tracks": "4",
+      "tracks": [
+        {
+          "id": "1",
+          "label": "The Four Seasons: Summer",
+          "author": "Mumi",
+          "duration": "03:57",
+          "link": "https://www.youtube.com/embed/0WcGL4CjqiI"
+        },
+        {
+          "id": "2",
+          "label": "Hang (Drum) and Handpan Comparison",
+          "author": "David Kuckhermann",
+          "duration": "30:41",
+          "link": "https://www.youtube.com/embed/Sp5dgy8UDKs"
+        },
+        {
+          "id": "3",
+          "label": "The most beautiful instruments",
+          "author": "Guide Serdar",
+          "duration": "14:50",
+          "link": "https://www.youtube.com/embed/GAJj3OdWH3U"
+        },
+       {
+          "id": "4",
+          "label": "Top 10 AMAZING Street Performers Musicians Piano (2017)",
+          "author": "Viralcoholics",
+          "duration": "23:06",
+          "link": "https://www.youtube.com/embed/WkamfiP4RUU"
+        }
+      ],
+      "total_duration": "46:54",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut cupiditate deserunt dolor ducimus facilis itaque minima minus nam nihil nobis provident quae quibusdam repudiandae sequi, voluptas voluptate voluptates."
+    },
+    {
+      "id": "fo34680sdglsddgsdwetu8op",
+      "label": "album #2 label",
+      "release_date": "2014",
+      "author": "#4 Author",
+      "cover": "https://qph.ec.quoracdn.net/main-qimg-0b4d3539b314fb898a95d424fe1af853",
+      "num_tracks": "4",
+      "tracks": [
+        {
+          "id": "1",
+          "label": "The Four Seasons: Summer",
+          "author": "Mumi",
+          "duration": "03:57",
+          "link": "https://www.youtube.com/embed/0WcGL4CjqiI"
+        },
+        {
+          "id": "2",
+          "label": "Hang (Drum) and Handpan Comparison",
+          "author": "David Kuckhermann",
+          "duration": "30:41",
+          "link": "https://www.youtube.com/embed/Sp5dgy8UDKs"
+        },
+        {
+          "id": "3",
+          "label": "The most beautiful instruments",
+          "author": "Guide Serdar",
+          "duration": "14:50",
+          "link": "https://www.youtube.com/embed/GAJj3OdWH3U"
+        },
+        {
+          "id": "4",
+          "label": "Top 10 AMAZING Street Performers Musicians Piano (2017)",
+          "author": "Viralcoholics",
+          "duration": "23:06",
+          "link": "https://www.youtube.com/embed/WkamfiP4RUU"
+        }
+      ],
+      "total_duration": "46:54",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut cupiditate deserunt dolor ducimus facilis itaque minima minus nam nihil nobis provident quae quibusdam repudiandae sequi, voluptas voluptate voluptates."
+    },
+    {
+      "id": "slgoasgadsgasujd95905iwe",
+      "label": "album #2 label",
+      "release_date": "2014",
+      "author": "#5 Author",
+      "cover": "https://www.bonjovi.com/wp-content/uploads/2016/09/HaveANiceDay2005.jpg",
+      "num_tracks": "4",
+      "tracks": [
+        {
+          "id": "1",
+          "label": "The Four Seasons: Summer",
+          "author": "Mumi",
+          "duration": "03:57",
+          "link": "https://www.youtube.com/embed/0WcGL4CjqiI"
+        },
+        {
+          "id": "2",
+          "label": "Hang (Drum) and Handpan Comparison",
+          "author": "David Kuckhermann",
+          "duration": "30:41",
+          "link": "https://www.youtube.com/embed/Sp5dgy8UDKs"
+        },
+        {
+          "id": "3",
+          "label": "The most beautiful instruments",
+          "author": "Guide Serdar",
+          "duration": "14:50",
+          "link": "https://www.youtube.com/embed/GAJj3OdWH3U"
+        },
+        {
+          "id": "4",
+          "label": "Top 10 AMAZING Street Performers Musicians Piano (2017)",
+          "author": "Viralcoholics",
+          "duration": "23:06",
+          "link": "https://www.youtube.com/embed/WkamfiP4RUU"
+        }
+      ],
+      "total_duration": "46:54",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut cupiditate deserunt dolor ducimus facilis itaque minima minus nam nihil nobis provident quae quibusdam repudiandae sequi, voluptas voluptate voluptates."
+    }
+  ]
+}

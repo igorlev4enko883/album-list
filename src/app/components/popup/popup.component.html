@@ -1,0 +1,78 @@
+<div class="popup add-album-wrapper">
+  <div class="overlay" (click)="cancel()"></div>
+  <div class="add-new-form">
+    <div>
+      <input type="text" #id placeholder="Album ID">
+      <input type="text" #label placeholder="Album Label">
+      <input type="text" #author placeholder="Album Author">
+      <input type="number" #release_data placeholder="Album Release Year">
+    </div>
+    <div>
+      <input type="text" #total_duration placeholder="Total Duration">
+      <input type="text" #description placeholder="Album Description">
+    </div>
+    <div>
+      <input type="text" #cover placeholder="Album Cover Link">
+    </div>
+    <div class="tracks" #tracks>
+      <button class="add-track" (click)="addTracks()">Add tracks</button>
+      <ul *ngIf="addingTracks">
+        <li>
+          <div>Track #1</div>
+          <input type="text" #track1_id placeholder="Track ID">
+          <input type="text" #track1_label placeholder="Track Label">
+          <input type="text" #track1_author placeholder="Track Author">
+          <input type="text" #track1_duration placeholder="Track Duration">
+          <input type="text" #track1_link placeholder="Link to Embed Video">
+        </li>
+        <li>
+          <div>Track #2</div>
+          <input type="text" #track2_id placeholder="Track ID">
+          <input type="text" #track2_label placeholder="Track Label">
+          <input type="text" #track2_author placeholder="Track Author">
+          <input type="text" #track2_duration placeholder="Track Duration">
+          <input type="text" #track2_link placeholder="Link to Embed Video">
+        </li>
+        <li>
+          <div>Track #3</div>
+          <input type="text" #track3_id placeholder="Track ID">
+          <input type="text" #track3_label placeholder="Track Label">
+          <input type="text" #track3_author placeholder="Track Author">
+          <input type="text" #track3_duration placeholder="Track Duration">
+          <input type="text" #track3_link placeholder="Link to Embed Video">
+        </li>
+        <li>
+          <div>Track #4</div>
+          <input type="text" #track4_id placeholder="Track ID">
+          <input type="text" #track4_label placeholder="Track Label">
+          <input type="text" #track4_author placeholder="Track Author">
+          <input type="text" #track4_duration placeholder="Track Duration">
+          <input type="text" #track4_link placeholder="Link to Embed Video">
+        </li>
+        <li>
+          <div>Track #5</div>
+          <input type="text" #track5_id placeholder="Track ID">
+          <input type="text" #track5_label placeholder="Track Label">
+          <input type="text" #track5_author placeholder="Track Author">
+          <input type="text" #track5_duration placeholder="Track Duration">
+          <input type="text" #track5_link placeholder="Link to Embed Video">
+        </li>
+      </ul>
+    </div>
+    <div class="form-controls">
+      <button (click)="addAlbum(
+    album.id = id.value,
+    album.label = label.value,
+    album.author = author.value,
+    album.release_date = release_data.value,
+    album.cover = cover.value,
+    album.tracks = [],
+    album.description = description.value,
+    album.total_duration = total_duration.value
+    )">
+        Add Album
+      </button>
+      <button (click)="cancel()">Close</button>
+    </div>
+  </div>
+</div>
